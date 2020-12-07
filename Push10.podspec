@@ -38,6 +38,7 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'Push10' => ['Push10/Assets/*.png']
   # }
+  
 
   s.public_header_files = 'Push10/Classes/**/*.h'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
