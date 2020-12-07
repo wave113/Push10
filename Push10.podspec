@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Push10'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of Push10.'
 
 
@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'Push10' => ['Push10/Assets/*.png']
   # }
-  
+
 
   s.public_header_files = 'Push10/Classes/**/*.h'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
