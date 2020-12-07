@@ -40,6 +40,8 @@ TODO: Add long description of the pod here.
   # }
 
 
+
+
   s.public_header_files = 'Push10/Classes/**/*.h'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
