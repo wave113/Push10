@@ -1,0 +1,16 @@
+PODS:
+  - Push10 (0.1.0)
+
+DEPENDENCIES:
+  - Push10 (from `../`)
+
+EXTERNAL SOURCES:
+  Push10:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Push10: 1a03498090cbfccff2e98cade0b5fb4dd5eabe6f
+
+PODFILE CHECKSUM: 5da2b9bab09da04e95a2be2c72e22475bcb4da08
+
+COCOAPODS: 1.10.0

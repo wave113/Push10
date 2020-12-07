@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08268D4CAB655432F3A30693E1B348F8 /* Pods-Push10_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B13EF21CE4B981AE2A7FD6DEF2F0822 /* Pods-Push10_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CDA9A5CFEA99F1AC26708765DEDEF4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		191E12B9D4E0A89DBE2DBEF43700B432 /* Push10-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7FF9B77FDD9348E69C2B1459D7839 /* Push10-dummy.m */; };
+		4683B19EFE932AD87D59B3B82CD5BE9F /* Pods-Push10_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E949CF2DC4D7DEA3D6B32665F6EAD353 /* Pods-Push10_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99E17AF14E016DC7A8BA54D9C18466F7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 397ABB753BEA195177FAAABCA31BDB59 /* ReplaceMe.m */; };
+		B8156C7FC6D279BD10AFBC3BD5FE9D98 /* Pods-Push10_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD9D9C1BE2FC9162C24D6E8A412440 /* Pods-Push10_Tests-dummy.m */; };
+		BC64A655D73AAABAD343278C6495569E /* Push10-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1186383AAC7996F310E70F868C15D1 /* Push10-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDFBBD0059339E7DE710B3156482F8B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C022023A1C70B3414EF232AEAA7C0BED /* Pods-Push10_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB448B9664B05AB6491745A8EE7D010C /* Pods-Push10_Example-dummy.m */; };
+		DB4910FF02BEBCAD8D89D4DF632DD898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3896FBE80ED2C62A6AD568AC6105948A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10FEC388D74F4BBF3A8C1E8D7F16CBAC;
+			remoteInfo = "Pods-Push10_Example";
+		};
+		A05D3727198BF753A9AD738B3C2B9B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D34A9A5CDB7D6E0DFF2428D60EC341D9;
+			remoteInfo = Push10;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06CBC65F6E7F83F92CCCB3DE32A62AD8 /* Push10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Push10.release.xcconfig; sourceTree = "<group>"; };
+		0B13EF21CE4B981AE2A7FD6DEF2F0822 /* Pods-Push10_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Push10_Example-umbrella.h"; sourceTree = "<group>"; };
+		1B2768989A92487CB018C033A3DD1EC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		25C31B0F68B8275873C4F236C0ABD885 /* Pods-Push10_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Push10_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		25D853A55FFDAE077A6249480981F52B /* Push10-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Push10-prefix.pch"; sourceTree = "<group>"; };
+		29CE69B2C8902B3607FCB85B719D1474 /* Pods_Push10_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Push10_Tests.framework; path = "Pods-Push10_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD3C9FCEBDE8499039EF8BF65B1A417 /* Pods-Push10_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Push10_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3308A800E826D2D4CB3268705059F34C /* Pods-Push10_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Push10_Example-Info.plist"; sourceTree = "<group>"; };
+		397ABB753BEA195177FAAABCA31BDB59 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = Push10/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		43998A2E6C2EC2D86D7E8B3246D245B2 /* Pods-Push10_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Push10_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B396CA2E1428D4FC683384BA79409C4 /* Push10.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Push10.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4BA7FF9B77FDD9348E69C2B1459D7839 /* Push10-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Push10-dummy.m"; sourceTree = "<group>"; };
+		4E2FF68B9C09C599619412B3BA57A1A3 /* Push10.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Push10.modulemap; sourceTree = "<group>"; };
+		62E5C3DF7410883CEC838153EA589D77 /* Pods-Push10_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Push10_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		64BFCA569F05BF36B1681B6C8393E4A9 /* Pods-Push10_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Push10_Example.release.xcconfig"; sourceTree = "<group>"; };
+		71CD9D9C1BE2FC9162C24D6E8A412440 /* Pods-Push10_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Push10_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E05422DC6A6CB49C2FE3C97E13CD338 /* Push10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Push10.framework; path = Push10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE6AEDBB54786C1119F41AB10729AA0 /* Pods-Push10_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Push10_Tests-Info.plist"; sourceTree = "<group>"; };
+		8D0A0913F8ADE6EC1721359A6DFA5D89 /* Pods-Push10_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Push10_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9A1186383AAC7996F310E70F868C15D1 /* Push10-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Push10-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB448B9664B05AB6491745A8EE7D010C /* Pods-Push10_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Push10_Example-dummy.m"; sourceTree = "<group>"; };
+		AC168688243DF17A4131E3534B72324B /* Pods-Push10_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Push10_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C228AA1FA5417433FF6EAE940CEAC729 /* Pods_Push10_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Push10_Example.framework; path = "Pods-Push10_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44FF70C0263396BE1E225F84719DBAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CA439F753763C69D5CF3CDFBB9829062 /* Pods-Push10_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Push10_Example.modulemap"; sourceTree = "<group>"; };
+		D4C8135AB18EFEB2096175E042717BA3 /* Push10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Push10.debug.xcconfig; sourceTree = "<group>"; };
+		E3FD8CA1F552271DB1F1E25405B65D58 /* Pods-Push10_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Push10_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E949CF2DC4D7DEA3D6B32665F6EAD353 /* Pods-Push10_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Push10_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F118B15A8C815025C119D06E8EE61B45 /* Push10-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Push10-Info.plist"; sourceTree = "<group>"; };
+		F4F54104B33743F558F2A5CFFD7C64B6 /* Pods-Push10_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Push10_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F98C42FB886643A215253A408A5E92BE /* Pods-Push10_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Push10_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65176FA44BD8B538A6970D6B64D7B5D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4910FF02BEBCAD8D89D4DF632DD898 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8245DD8FDFE5C780353A7ED4E7B4F1BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDA9A5CFEA99F1AC26708765DEDEF4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08A96BE6FAB8E0D1725735A72B148F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFBBD0059339E7DE710B3156482F8B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DE079AE380E4E2C83792C6A972D2008 /* Push10 */ = {
+			isa = PBXGroup;
+			children = (
+				397ABB753BEA195177FAAABCA31BDB59 /* ReplaceMe.m */,
+				941474992A2EA316D42CA79E1130B399 /* Pod */,
+				C808067D8CD0ADDD910DF5FE3FE5ECE4 /* Support Files */,
+			);
+			name = Push10;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		45782F672A7D87342B243D36F9E3F641 /* Pods-Push10_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F98C42FB886643A215253A408A5E92BE /* Pods-Push10_Tests.modulemap */,
+				F4F54104B33743F558F2A5CFFD7C64B6 /* Pods-Push10_Tests-acknowledgements.markdown */,
+				E3FD8CA1F552271DB1F1E25405B65D58 /* Pods-Push10_Tests-acknowledgements.plist */,
+				71CD9D9C1BE2FC9162C24D6E8A412440 /* Pods-Push10_Tests-dummy.m */,
+				7FE6AEDBB54786C1119F41AB10729AA0 /* Pods-Push10_Tests-Info.plist */,
+				E949CF2DC4D7DEA3D6B32665F6EAD353 /* Pods-Push10_Tests-umbrella.h */,
+				AC168688243DF17A4131E3534B72324B /* Pods-Push10_Tests.debug.xcconfig */,
+				25C31B0F68B8275873C4F236C0ABD885 /* Pods-Push10_Tests.release.xcconfig */,
+			);
+			name = "Pods-Push10_Tests";
+			path = "Target Support Files/Pods-Push10_Tests";
+			sourceTree = "<group>";
+		};
+		4FB3E24F90DBA137E16CB4580DDACB10 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6D03AA7B9D0CA42168A2D7BDD880728 /* Pods-Push10_Example */,
+				45782F672A7D87342B243D36F9E3F641 /* Pods-Push10_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6637EB239EAF9AD98649681B5219D8EF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DE079AE380E4E2C83792C6A972D2008 /* Push10 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		941474992A2EA316D42CA79E1130B399 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1B2768989A92487CB018C033A3DD1EC9 /* LICENSE */,
+				4B396CA2E1428D4FC683384BA79409C4 /* Push10.podspec */,
+				C44FF70C0263396BE1E225F84719DBAA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A4D7202E0F1A4FEF9E1383922E9C8AB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C228AA1FA5417433FF6EAE940CEAC729 /* Pods_Push10_Example.framework */,
+				29CE69B2C8902B3607FCB85B719D1474 /* Pods_Push10_Tests.framework */,
+				7E05422DC6A6CB49C2FE3C97E13CD338 /* Push10.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C808067D8CD0ADDD910DF5FE3FE5ECE4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E2FF68B9C09C599619412B3BA57A1A3 /* Push10.modulemap */,
+				4BA7FF9B77FDD9348E69C2B1459D7839 /* Push10-dummy.m */,
+				F118B15A8C815025C119D06E8EE61B45 /* Push10-Info.plist */,
+				25D853A55FFDAE077A6249480981F52B /* Push10-prefix.pch */,
+				9A1186383AAC7996F310E70F868C15D1 /* Push10-umbrella.h */,
+				D4C8135AB18EFEB2096175E042717BA3 /* Push10.debug.xcconfig */,
+				06CBC65F6E7F83F92CCCB3DE32A62AD8 /* Push10.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Push10";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6637EB239EAF9AD98649681B5219D8EF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A4D7202E0F1A4FEF9E1383922E9C8AB1 /* Products */,
+				4FB3E24F90DBA137E16CB4580DDACB10 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6D03AA7B9D0CA42168A2D7BDD880728 /* Pods-Push10_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CA439F753763C69D5CF3CDFBB9829062 /* Pods-Push10_Example.modulemap */,
+				43998A2E6C2EC2D86D7E8B3246D245B2 /* Pods-Push10_Example-acknowledgements.markdown */,
+				2FD3C9FCEBDE8499039EF8BF65B1A417 /* Pods-Push10_Example-acknowledgements.plist */,
+				AB448B9664B05AB6491745A8EE7D010C /* Pods-Push10_Example-dummy.m */,
+				8D0A0913F8ADE6EC1721359A6DFA5D89 /* Pods-Push10_Example-frameworks.sh */,
+				3308A800E826D2D4CB3268705059F34C /* Pods-Push10_Example-Info.plist */,
+				0B13EF21CE4B981AE2A7FD6DEF2F0822 /* Pods-Push10_Example-umbrella.h */,
+				62E5C3DF7410883CEC838153EA589D77 /* Pods-Push10_Example.debug.xcconfig */,
+				64BFCA569F05BF36B1681B6C8393E4A9 /* Pods-Push10_Example.release.xcconfig */,
+			);
+			name = "Pods-Push10_Example";
+			path = "Target Support Files/Pods-Push10_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CFE22289507602DEA8793547FE69234 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4683B19EFE932AD87D59B3B82CD5BE9F /* Pods-Push10_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB20BD4E929726FA3B5754C9C28F4E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC64A655D73AAABAD343278C6495569E /* Push10-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C70AB00975EA670BA28B98FED106D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08268D4CAB655432F3A30693E1B348F8 /* Pods-Push10_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10FEC388D74F4BBF3A8C1E8D7F16CBAC /* Pods-Push10_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488E8BF469E692B2FB565AD74EB80E76 /* Build configuration list for PBXNativeTarget "Pods-Push10_Example" */;
+			buildPhases = (
+				E1C70AB00975EA670BA28B98FED106D5 /* Headers */,
+				E1D196C13B6D312C3247FAD332EBAC83 /* Sources */,
+				65176FA44BD8B538A6970D6B64D7B5D0 /* Frameworks */,
+				1FC26D8F31FE6EC64B262B249CA6C8E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A623868291F3479638A2E895CC3DB4C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Push10_Example";
+			productName = "Pods-Push10_Example";
+			productReference = C228AA1FA5417433FF6EAE940CEAC729 /* Pods_Push10_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3379E16258B7635DDCB23934590020C8 /* Pods-Push10_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B5A9ED947DCA9EE71EDEC78F645C524 /* Build configuration list for PBXNativeTarget "Pods-Push10_Tests" */;
+			buildPhases = (
+				3CFE22289507602DEA8793547FE69234 /* Headers */,
+				E3C8E4BF0036DACA707AE52C87848087 /* Sources */,
+				E08A96BE6FAB8E0D1725735A72B148F5 /* Frameworks */,
+				C326323D1D5F77665436DE86136BBE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99375D4E7E6F12E03FCFF79442425039 /* PBXTargetDependency */,
+			);
+			name = "Pods-Push10_Tests";
+			productName = "Pods-Push10_Tests";
+			productReference = 29CE69B2C8902B3607FCB85B719D1474 /* Pods_Push10_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D34A9A5CDB7D6E0DFF2428D60EC341D9 /* Push10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B270B83EFF5705C2860453516DF3BC07 /* Build configuration list for PBXNativeTarget "Push10" */;
+			buildPhases = (
+				DCB20BD4E929726FA3B5754C9C28F4E2 /* Headers */,
+				E444B17B8A18849AFC1F9FF359D70D72 /* Sources */,
+				8245DD8FDFE5C780353A7ED4E7B4F1BE /* Frameworks */,
+				99D09A92236BBE308195047C011C5BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Push10;
+			productName = Push10;
+			productReference = 7E05422DC6A6CB49C2FE3C97E13CD338 /* Push10.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A4D7202E0F1A4FEF9E1383922E9C8AB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10FEC388D74F4BBF3A8C1E8D7F16CBAC /* Pods-Push10_Example */,
+				3379E16258B7635DDCB23934590020C8 /* Pods-Push10_Tests */,
+				D34A9A5CDB7D6E0DFF2428D60EC341D9 /* Push10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FC26D8F31FE6EC64B262B249CA6C8E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D09A92236BBE308195047C011C5BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C326323D1D5F77665436DE86136BBE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1D196C13B6D312C3247FAD332EBAC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C022023A1C70B3414EF232AEAA7C0BED /* Pods-Push10_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C8E4BF0036DACA707AE52C87848087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8156C7FC6D279BD10AFBC3BD5FE9D98 /* Pods-Push10_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E444B17B8A18849AFC1F9FF359D70D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191E12B9D4E0A89DBE2DBEF43700B432 /* Push10-dummy.m in Sources */,
+				99E17AF14E016DC7A8BA54D9C18466F7 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99375D4E7E6F12E03FCFF79442425039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Push10_Example";
+			target = 10FEC388D74F4BBF3A8C1E8D7F16CBAC /* Pods-Push10_Example */;
+			targetProxy = 3896FBE80ED2C62A6AD568AC6105948A /* PBXContainerItemProxy */;
+		};
+		A623868291F3479638A2E895CC3DB4C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Push10;
+			target = D34A9A5CDB7D6E0DFF2428D60EC341D9 /* Push10 */;
+			targetProxy = A05D3727198BF753A9AD738B3C2B9B09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E6F89064C729FD0FB2C7C4A3164C35A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C31B0F68B8275873C4F236C0ABD885 /* Pods-Push10_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Push10_Tests/Pods-Push10_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Push10_Tests/Pods-Push10_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		75C0B53CFEBEC0E6711DD5CD25DE6524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E5C3DF7410883CEC838153EA589D77 /* Pods-Push10_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Push10_Example/Pods-Push10_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Push10_Example/Pods-Push10_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84E798C79AB9E823F340842714A66229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64BFCA569F05BF36B1681B6C8393E4A9 /* Pods-Push10_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Push10_Example/Pods-Push10_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Push10_Example/Pods-Push10_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D5D91B2BD4D8D54B3C3A8CEAA3215005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC168688243DF17A4131E3534B72324B /* Pods-Push10_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Push10_Tests/Pods-Push10_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Push10_Tests/Pods-Push10_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E56D2C095D6C21D4D2C110BFA6A97F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06CBC65F6E7F83F92CCCB3DE32A62AD8 /* Push10.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Push10/Push10-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Push10/Push10-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Push10/Push10.modulemap";
+				PRODUCT_MODULE_NAME = Push10;
+				PRODUCT_NAME = Push10;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF151C368D5426883A5250FD54FCFD08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C8135AB18EFEB2096175E042717BA3 /* Push10.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Push10/Push10-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Push10/Push10-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Push10/Push10.modulemap";
+				PRODUCT_MODULE_NAME = Push10;
+				PRODUCT_NAME = Push10;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488E8BF469E692B2FB565AD74EB80E76 /* Build configuration list for PBXNativeTarget "Pods-Push10_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C0B53CFEBEC0E6711DD5CD25DE6524 /* Debug */,
+				84E798C79AB9E823F340842714A66229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B5A9ED947DCA9EE71EDEC78F645C524 /* Build configuration list for PBXNativeTarget "Pods-Push10_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D91B2BD4D8D54B3C3A8CEAA3215005 /* Debug */,
+				0E6F89064C729FD0FB2C7C4A3164C35A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B270B83EFF5705C2860453516DF3BC07 /* Build configuration list for PBXNativeTarget "Push10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF151C368D5426883A5250FD54FCFD08 /* Debug */,
+				E56D2C095D6C21D4D2C110BFA6A97F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
