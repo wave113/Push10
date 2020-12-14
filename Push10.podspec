@@ -37,4 +37,7 @@ TODO: Add long description of the pod here.
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.resource_bundles = {
+    'Push10' => ['Push10/Assets/*.png']
+  }
 end
