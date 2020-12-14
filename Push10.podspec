@@ -11,13 +11,6 @@ Pod::Spec.new do |s|
   s.version          = '0.1.6'
   s.summary          = 'A short description of Push10.'
 
-
-
-
-
-
-
-
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -40,16 +33,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Push10/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Push10' => ['Push10/Assets/*.png']
-  # }
-
-
-
-
   s.public_header_files = 'Push10/Classes/**/*.h'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
