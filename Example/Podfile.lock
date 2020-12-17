@@ -1,16 +1,16 @@
 PODS:
-  - Push10 (0.1.0)
+  - JCNetworking_CCBFT (0.2.7)
 
 DEPENDENCIES:
-  - Push10 (from `../`)
+  - JCNetworking_CCBFT (from `../`)
 
 EXTERNAL SOURCES:
-  Push10:
+  JCNetworking_CCBFT:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Push10: 1a03498090cbfccff2e98cade0b5fb4dd5eabe6f
+  JCNetworking_CCBFT: a432f5f252a1177ac1d308ebabe18956b02c57f1
 
-PODFILE CHECKSUM: 5da2b9bab09da04e95a2be2c72e22475bcb4da08
+PODFILE CHECKSUM: 920941a83e5aa998b1e51d062ab81a671ac32848
 
 COCOAPODS: 1.10.0

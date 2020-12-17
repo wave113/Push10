@@ -1,0 +1,40 @@
+{
+  "name": "JCNetworking_CCBFT",
+  "version": "0.2.7",
+  "summary": "A short description of JCNetworking_CCBFT.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qinzixin/JCNetworking_CCBFT",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qinzixin": "qinzixin.zb@ccbft.com"
+  },
+  "source": {
+    "git": "ssh://git@code.ccbft.cloud:22480/cocoapods/jcnetworking.git",
+    "tag": "0.2.7"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JCNetworking_CCBFT/Classes/**/*",
+  "public_header_files": "JCNetworking_CCBFT/Classes/**/*.h",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "frameworks": [
+    "Foundation",
+    "Security",
+    "CoreTelephony",
+    "UIKit",
+    "SystemConfiguration",
+    "MobileCoreServices",
+    "CoreServices",
+    "CoreGraphics",
+    "WebKit"
+  ]
+}
