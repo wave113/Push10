@@ -1,6 +1,0 @@
-framework module JCNetworking_CCBFT {
-  umbrella header "JCNetworking_CCBFT-umbrella.h"
-
-  export *
-  module * { export * }
-}

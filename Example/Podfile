@@ -1,12 +1,11 @@
 use_frameworks!
 
 platform :ios, '9.0'
-source 'ssh://git@code.ccbft.cloud:22480/cocoapods/jcspecs.git'
 
-target 'JCNetworking_CCBFT_Example' do
-  pod 'JCNetworking_CCBFT', :path => '../'
-  
-  target 'JCNetworking_CCBFT_Tests' do
+target 'Push10_Example' do
+  pod 'Push10', :path => '../'
+
+  target 'Push10_Tests' do
     inherit! :search_paths
 
     

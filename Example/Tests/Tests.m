@@ -1,9 +1,9 @@
 //
-//  JCNetworking_CCBFTTests.m
-//  JCNetworking_CCBFTTests
+//  Push10Tests.m
+//  Push10Tests
 //
-//  Created by qinzixin on 10/27/2020.
-//  Copyright (c) 2020 qinzixin. All rights reserved.
+//  Created by wave113 on 12/17/2020.
+//  Copyright (c) 2020 wave113. All rights reserved.
 //
 
 @import XCTest;

@@ -1,6 +1,0 @@
-framework module Pods_JCNetworking_CCBFT_Example {
-  umbrella header "Pods-JCNetworking_CCBFT_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
