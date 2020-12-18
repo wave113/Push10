@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Push10'
-  s.version          = '1.2.0'
+  s.version          = '1.2.1'
   s.summary          = 'A short description of Push10.'
 
 # This description is used to generate tags and improve search results.
