@@ -11,9 +11,9 @@
 
 - (Test *)init {
     if (self = [super init]) {
-        NSLog(@"TTTTTTTTTT")
+        NSLog(@"TTTTTTTTTT");
     }
-    return self
+    return self;
 }
 
 @end
