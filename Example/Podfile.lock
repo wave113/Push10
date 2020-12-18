@@ -1,5 +1,5 @@
 PODS:
-  - Push10 (1.2.1)
+  - Push10 (1.2.3)
 
 DEPENDENCIES:
   - Push10 (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Push10: 14fa4bde3b6224f634bd0547ffbe6299b52b0777
+  Push10: df2aca8b50a7796c4bee15d311259d5c66b30f62
 
 PODFILE CHECKSUM: 5da2b9bab09da04e95a2be2c72e22475bcb4da08
 

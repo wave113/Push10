@@ -1,6 +1,6 @@
 {
   "name": "Push10",
-  "version": "1.2.1",
+  "version": "1.2.3",
   "summary": "A short description of Push10.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wave113/Push10",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:wave113/Push10.git",
-    "tag": "1.2.1"
+    "tag": "1.2.3"
   },
   "platforms": {
     "ios": "9.0"
@@ -30,5 +30,6 @@
     "Push10": [
       "Push10/Assets/*.png"
     ]
-  }
+  },
+  "frameworks": "Foundation"
 }
