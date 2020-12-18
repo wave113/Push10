@@ -1,6 +1,6 @@
 {
   "name": "Push10",
-  "version": "0.1.0",
+  "version": "1.2.1",
   "summary": "A short description of Push10.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wave113/Push10",
@@ -12,8 +12,8 @@
     "wave113": "leixiaotao.zb@ccbft.com"
   },
   "source": {
-    "git": "git@code.ccbft.cloud:22480/cocoapods/Push10.git",
-    "tag": "0.1.0"
+    "git": "git@github.com:wave113/Push10.git",
+    "tag": "1.2.1"
   },
   "platforms": {
     "ios": "9.0"
@@ -25,5 +25,10 @@
   },
   "user_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "resource_bundles": {
+    "Push10": [
+      "Push10/Assets/*.png"
+    ]
   }
 }

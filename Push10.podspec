@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Push10'
-  s.version          = '1.2.1'
+  s.version          = '1.2.2'
   s.summary          = 'A short description of Push10.'
 
 # This description is used to generate tags and improve search results.
@@ -37,4 +37,5 @@ TODO: Add long description of the pod here.
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # s.dependency 'AFNetworking', '~> 2.3'
   s.resource_bundles = { 'Push10' => ['Push10/Assets/*.png'] }
+  s.frameworks = "Foundation"
 end

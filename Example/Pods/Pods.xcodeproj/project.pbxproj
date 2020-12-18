@@ -8,71 +8,92 @@
 
 /* Begin PBXBuildFile section */
 		08268D4CAB655432F3A30693E1B348F8 /* Pods-Push10_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B13EF21CE4B981AE2A7FD6DEF2F0822 /* Pods-Push10_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CDA9A5CFEA99F1AC26708765DEDEF4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		191E12B9D4E0A89DBE2DBEF43700B432 /* Push10-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7FF9B77FDD9348E69C2B1459D7839 /* Push10-dummy.m */; };
+		2699E59B74A84CA901E72CB1A396239F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		27588697A0271948FCD3A045BCDD19A7 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 915084C40FA7E9E8B71E60BCC9D5A518 /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		384348A76ADEBDAAECE64D5631B07D78 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B912BB6ADD668D47E91CEAB5CCE07E3 /* 1.png */; };
+		3E34920B947132A4B8C7425BB7CC3D25 /* Push10.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2259313B0BB9F096CF65665FE2601C5C /* Push10.bundle */; };
+		3F00898B3860A43DC9ABF990FA5DA5B2 /* Push10-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5666832B06498A43A39B0CBBA5093512 /* Push10-dummy.m */; };
 		4683B19EFE932AD87D59B3B82CD5BE9F /* Pods-Push10_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E949CF2DC4D7DEA3D6B32665F6EAD353 /* Pods-Push10_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99E17AF14E016DC7A8BA54D9C18466F7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 397ABB753BEA195177FAAABCA31BDB59 /* ReplaceMe.m */; };
 		B8156C7FC6D279BD10AFBC3BD5FE9D98 /* Pods-Push10_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CD9D9C1BE2FC9162C24D6E8A412440 /* Pods-Push10_Tests-dummy.m */; };
-		BC64A655D73AAABAD343278C6495569E /* Push10-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1186383AAC7996F310E70F868C15D1 /* Push10-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDFBBD0059339E7DE710B3156482F8B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C022023A1C70B3414EF232AEAA7C0BED /* Pods-Push10_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB448B9664B05AB6491745A8EE7D010C /* Pods-Push10_Example-dummy.m */; };
+		D4CEC8FE9022E3432F22E4FFF263F11B /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = D8003F3322D7C903EC88C915E65FDF5B /* Test.m */; };
 		DB4910FF02BEBCAD8D89D4DF632DD898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EFDF9E840A531C8524FD8DAC1C084210 /* Push10-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EDE8FB36A4784577EB32E5F683AB27 /* Push10-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3896FBE80ED2C62A6AD568AC6105948A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 10FEC388D74F4BBF3A8C1E8D7F16CBAC;
-			remoteInfo = "Pods-Push10_Example";
-		};
-		A05D3727198BF753A9AD738B3C2B9B09 /* PBXContainerItemProxy */ = {
+		2A08C1A4D9B73D9A1EB70D009875A86C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D34A9A5CDB7D6E0DFF2428D60EC341D9;
 			remoteInfo = Push10;
 		};
+		D9EFB7148A6127724C78F431B038A8F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10FEC388D74F4BBF3A8C1E8D7F16CBAC;
+			remoteInfo = "Pods-Push10_Example";
+		};
+		FF2D9328E94B417D2AD6A6EC85BD0AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C0CBC761A03F698205B6C74B91F3278;
+			remoteInfo = "Push10-Push10";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06CBC65F6E7F83F92CCCB3DE32A62AD8 /* Push10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Push10.release.xcconfig; sourceTree = "<group>"; };
 		0B13EF21CE4B981AE2A7FD6DEF2F0822 /* Pods-Push10_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Push10_Example-umbrella.h"; sourceTree = "<group>"; };
-		1B2768989A92487CB018C033A3DD1EC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1B912BB6ADD668D47E91CEAB5CCE07E3 /* 1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 1.png; path = Push10/Assets/1.png; sourceTree = "<group>"; };
+		1EE476CA41EF6827A40F35A8EB65D2FF /* Push10-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Push10-prefix.pch"; sourceTree = "<group>"; };
+		2259313B0BB9F096CF65665FE2601C5C /* Push10.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Push10.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		22EC33C9E392320BD08070B523EB68E9 /* Push10.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Push10.modulemap; sourceTree = "<group>"; };
+		2364A97AF58C8D7DB0C611B1A5E72EB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		25C31B0F68B8275873C4F236C0ABD885 /* Pods-Push10_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Push10_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		25D853A55FFDAE077A6249480981F52B /* Push10-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Push10-prefix.pch"; sourceTree = "<group>"; };
-		29CE69B2C8902B3607FCB85B719D1474 /* Pods_Push10_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Push10_Tests.framework; path = "Pods-Push10_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CE69B2C8902B3607FCB85B719D1474 /* Pods_Push10_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Push10_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B556B292FCBAF178099A552BE9A2D5D /* ResourceBundle-Push10-Push10-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Push10-Push10-Info.plist"; sourceTree = "<group>"; };
 		2FD3C9FCEBDE8499039EF8BF65B1A417 /* Pods-Push10_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Push10_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3308A800E826D2D4CB3268705059F34C /* Pods-Push10_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Push10_Example-Info.plist"; sourceTree = "<group>"; };
-		397ABB753BEA195177FAAABCA31BDB59 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = Push10/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		41EDE8FB36A4784577EB32E5F683AB27 /* Push10-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Push10-umbrella.h"; sourceTree = "<group>"; };
 		43998A2E6C2EC2D86D7E8B3246D245B2 /* Pods-Push10_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Push10_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4B396CA2E1428D4FC683384BA79409C4 /* Push10.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Push10.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4BA7FF9B77FDD9348E69C2B1459D7839 /* Push10-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Push10-dummy.m"; sourceTree = "<group>"; };
-		4E2FF68B9C09C599619412B3BA57A1A3 /* Push10.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Push10.modulemap; sourceTree = "<group>"; };
+		5666832B06498A43A39B0CBBA5093512 /* Push10-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Push10-dummy.m"; sourceTree = "<group>"; };
 		62E5C3DF7410883CEC838153EA589D77 /* Pods-Push10_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Push10_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		64BFCA569F05BF36B1681B6C8393E4A9 /* Pods-Push10_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Push10_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71CD9D9C1BE2FC9162C24D6E8A412440 /* Pods-Push10_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Push10_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7E05422DC6A6CB49C2FE3C97E13CD338 /* Push10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Push10.framework; path = Push10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E05422DC6A6CB49C2FE3C97E13CD338 /* Push10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Push10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE6AEDBB54786C1119F41AB10729AA0 /* Pods-Push10_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Push10_Tests-Info.plist"; sourceTree = "<group>"; };
 		8D0A0913F8ADE6EC1721359A6DFA5D89 /* Pods-Push10_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Push10_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9A1186383AAC7996F310E70F868C15D1 /* Push10-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Push10-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		915084C40FA7E9E8B71E60BCC9D5A518 /* Test.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Test.h; path = Push10/Classes/Test.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB448B9664B05AB6491745A8EE7D010C /* Pods-Push10_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Push10_Example-dummy.m"; sourceTree = "<group>"; };
 		AC168688243DF17A4131E3534B72324B /* Pods-Push10_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Push10_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C228AA1FA5417433FF6EAE940CEAC729 /* Pods_Push10_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Push10_Example.framework; path = "Pods-Push10_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C44FF70C0263396BE1E225F84719DBAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AD115D428D1C482755899CC30564C332 /* Push10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Push10.release.xcconfig; sourceTree = "<group>"; };
+		B2D94E95B57D08C58D4AA5D290440FA0 /* Push10-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Push10-Info.plist"; sourceTree = "<group>"; };
+		C228AA1FA5417433FF6EAE940CEAC729 /* Pods_Push10_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Push10_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35B07AB366EB1159657D272FB21BE80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CA439F753763C69D5CF3CDFBB9829062 /* Pods-Push10_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Push10_Example.modulemap"; sourceTree = "<group>"; };
-		D4C8135AB18EFEB2096175E042717BA3 /* Push10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Push10.debug.xcconfig; sourceTree = "<group>"; };
+		D6C3DEA29CE1D4F8B97E26D080D20C75 /* Push10.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Push10.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		D8003F3322D7C903EC88C915E65FDF5B /* Test.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Test.m; path = Push10/Classes/Test.m; sourceTree = "<group>"; };
 		E3FD8CA1F552271DB1F1E25405B65D58 /* Pods-Push10_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Push10_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E949CF2DC4D7DEA3D6B32665F6EAD353 /* Pods-Push10_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Push10_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F118B15A8C815025C119D06E8EE61B45 /* Push10-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Push10-Info.plist"; sourceTree = "<group>"; };
 		F4F54104B33743F558F2A5CFFD7C64B6 /* Pods-Push10_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Push10_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F66BBFAFB5C6DF768C5B2128F26E682E /* Push10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Push10.debug.xcconfig; sourceTree = "<group>"; };
 		F98C42FB886643A215253A408A5E92BE /* Pods-Push10_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Push10_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4747D7B9BAAF6B12D0548DF384258998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65176FA44BD8B538A6970D6B64D7B5D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,11 +102,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8245DD8FDFE5C780353A7ED4E7B4F1BE /* Frameworks */ = {
+		65F4D3F4D94A33A179246C514C7283A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CDA9A5CFEA99F1AC26708765DEDEF4E /* Foundation.framework in Frameworks */,
+				2699E59B74A84CA901E72CB1A396239F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,15 +121,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2DE079AE380E4E2C83792C6A972D2008 /* Push10 */ = {
+		0A27A4968DFAD281A87127B9D11D8D3C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				397ABB753BEA195177FAAABCA31BDB59 /* ReplaceMe.m */,
-				941474992A2EA316D42CA79E1130B399 /* Pod */,
-				C808067D8CD0ADDD910DF5FE3FE5ECE4 /* Support Files */,
+				F18FB7FF6BD8A3476074B4135102FDED /* Push10 */,
 			);
-			name = Push10;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		45782F672A7D87342B243D36F9E3F641 /* Pods-Push10_Tests */ = {
@@ -144,56 +162,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6637EB239EAF9AD98649681B5219D8EF /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2DE079AE380E4E2C83792C6A972D2008 /* Push10 */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		941474992A2EA316D42CA79E1130B399 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1B2768989A92487CB018C033A3DD1EC9 /* LICENSE */,
-				4B396CA2E1428D4FC683384BA79409C4 /* Push10.podspec */,
-				C44FF70C0263396BE1E225F84719DBAA /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A4D7202E0F1A4FEF9E1383922E9C8AB1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C228AA1FA5417433FF6EAE940CEAC729 /* Pods_Push10_Example.framework */,
-				29CE69B2C8902B3607FCB85B719D1474 /* Pods_Push10_Tests.framework */,
-				7E05422DC6A6CB49C2FE3C97E13CD338 /* Push10.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C808067D8CD0ADDD910DF5FE3FE5ECE4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4E2FF68B9C09C599619412B3BA57A1A3 /* Push10.modulemap */,
-				4BA7FF9B77FDD9348E69C2B1459D7839 /* Push10-dummy.m */,
-				F118B15A8C815025C119D06E8EE61B45 /* Push10-Info.plist */,
-				25D853A55FFDAE077A6249480981F52B /* Push10-prefix.pch */,
-				9A1186383AAC7996F310E70F868C15D1 /* Push10-umbrella.h */,
-				D4C8135AB18EFEB2096175E042717BA3 /* Push10.debug.xcconfig */,
-				06CBC65F6E7F83F92CCCB3DE32A62AD8 /* Push10.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Push10";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6637EB239EAF9AD98649681B5219D8EF /* Development Pods */,
+				0A27A4968DFAD281A87127B9D11D8D3C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				A4D7202E0F1A4FEF9E1383922E9C8AB1 /* Products */,
+				E6E8CDCA38A6650CD83DE5D49C902B4D /* Products */,
 				4FB3E24F90DBA137E16CB4580DDACB10 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -223,6 +198,56 @@
 			path = "Target Support Files/Pods-Push10_Example";
 			sourceTree = "<group>";
 		};
+		D8A3B3F482E1B83EDD8838B560007E1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22EC33C9E392320BD08070B523EB68E9 /* Push10.modulemap */,
+				5666832B06498A43A39B0CBBA5093512 /* Push10-dummy.m */,
+				B2D94E95B57D08C58D4AA5D290440FA0 /* Push10-Info.plist */,
+				1EE476CA41EF6827A40F35A8EB65D2FF /* Push10-prefix.pch */,
+				41EDE8FB36A4784577EB32E5F683AB27 /* Push10-umbrella.h */,
+				F66BBFAFB5C6DF768C5B2128F26E682E /* Push10.debug.xcconfig */,
+				AD115D428D1C482755899CC30564C332 /* Push10.release.xcconfig */,
+				2B556B292FCBAF178099A552BE9A2D5D /* ResourceBundle-Push10-Push10-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Push10";
+			sourceTree = "<group>";
+		};
+		E6E8CDCA38A6650CD83DE5D49C902B4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C228AA1FA5417433FF6EAE940CEAC729 /* Pods_Push10_Example.framework */,
+				29CE69B2C8902B3607FCB85B719D1474 /* Pods_Push10_Tests.framework */,
+				2259313B0BB9F096CF65665FE2601C5C /* Push10.bundle */,
+				7E05422DC6A6CB49C2FE3C97E13CD338 /* Push10.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F18FB7FF6BD8A3476074B4135102FDED /* Push10 */ = {
+			isa = PBXGroup;
+			children = (
+				1B912BB6ADD668D47E91CEAB5CCE07E3 /* 1.png */,
+				915084C40FA7E9E8B71E60BCC9D5A518 /* Test.h */,
+				D8003F3322D7C903EC88C915E65FDF5B /* Test.m */,
+				FB1A1983D4E1CE57F94A952BEB09F749 /* Pod */,
+				D8A3B3F482E1B83EDD8838B560007E1B /* Support Files */,
+			);
+			name = Push10;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FB1A1983D4E1CE57F94A952BEB09F749 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C35B07AB366EB1159657D272FB21BE80 /* LICENSE */,
+				D6C3DEA29CE1D4F8B97E26D080D20C75 /* Push10.podspec */,
+				2364A97AF58C8D7DB0C611B1A5E72EB1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -234,11 +259,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCB20BD4E929726FA3B5754C9C28F4E2 /* Headers */ = {
+		402C5F20EF642497A83A19D3CABD645A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC64A655D73AAABAD343278C6495569E /* Push10-umbrella.h in Headers */,
+				EFDF9E840A531C8524FD8DAC1C084210 /* Push10-umbrella.h in Headers */,
+				27588697A0271948FCD3A045BCDD19A7 /* Test.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +291,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A623868291F3479638A2E895CC3DB4C1 /* PBXTargetDependency */,
+				E13838EEE1AA55D9249CDBF5C8385C0B /* PBXTargetDependency */,
 			);
 			name = "Pods-Push10_Example";
 			productName = "Pods-Push10_Example";
@@ -284,25 +310,43 @@
 			buildRules = (
 			);
 			dependencies = (
-				99375D4E7E6F12E03FCFF79442425039 /* PBXTargetDependency */,
+				BCBF24BFB95A7579CB3EC56B4A62679D /* PBXTargetDependency */,
 			);
 			name = "Pods-Push10_Tests";
 			productName = "Pods-Push10_Tests";
 			productReference = 29CE69B2C8902B3607FCB85B719D1474 /* Pods_Push10_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D34A9A5CDB7D6E0DFF2428D60EC341D9 /* Push10 */ = {
+		8C0CBC761A03F698205B6C74B91F3278 /* Push10-Push10 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B270B83EFF5705C2860453516DF3BC07 /* Build configuration list for PBXNativeTarget "Push10" */;
+			buildConfigurationList = 10D8F0D3A0F1B39474BEAC6717939A8E /* Build configuration list for PBXNativeTarget "Push10-Push10" */;
 			buildPhases = (
-				DCB20BD4E929726FA3B5754C9C28F4E2 /* Headers */,
-				E444B17B8A18849AFC1F9FF359D70D72 /* Sources */,
-				8245DD8FDFE5C780353A7ED4E7B4F1BE /* Frameworks */,
-				99D09A92236BBE308195047C011C5BF1 /* Resources */,
+				12843D80D05E5DEE2034E6C2C275CEE0 /* Sources */,
+				4747D7B9BAAF6B12D0548DF384258998 /* Frameworks */,
+				8CB8488A223C5E8195CAFE9ACA139D32 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "Push10-Push10";
+			productName = "Push10-Push10";
+			productReference = 2259313B0BB9F096CF65665FE2601C5C /* Push10.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D34A9A5CDB7D6E0DFF2428D60EC341D9 /* Push10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC9E2C58F2EA19C2747BC6EEB7C0BCF /* Build configuration list for PBXNativeTarget "Push10" */;
+			buildPhases = (
+				402C5F20EF642497A83A19D3CABD645A /* Headers */,
+				77E0828D9D848A95AE40A7A383137EE2 /* Sources */,
+				65F4D3F4D94A33A179246C514C7283A4 /* Frameworks */,
+				3B9FEBC1D79AFDEFACD0BEB289FB84D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D28BEF1EC8B157B5B7CB18A1264D731 /* PBXTargetDependency */,
 			);
 			name = Push10;
 			productName = Push10;
@@ -327,13 +371,14 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A4D7202E0F1A4FEF9E1383922E9C8AB1 /* Products */;
+			productRefGroup = E6E8CDCA38A6650CD83DE5D49C902B4D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				10FEC388D74F4BBF3A8C1E8D7F16CBAC /* Pods-Push10_Example */,
 				3379E16258B7635DDCB23934590020C8 /* Pods-Push10_Tests */,
 				D34A9A5CDB7D6E0DFF2428D60EC341D9 /* Push10 */,
+				8C0CBC761A03F698205B6C74B91F3278 /* Push10-Push10 */,
 			);
 		};
 /* End PBXProject section */
@@ -346,10 +391,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99D09A92236BBE308195047C011C5BF1 /* Resources */ = {
+		3B9FEBC1D79AFDEFACD0BEB289FB84D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E34920B947132A4B8C7425BB7CC3D25 /* Push10.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB8488A223C5E8195CAFE9ACA139D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384348A76ADEBDAAECE64D5631B07D78 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +417,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		12843D80D05E5DEE2034E6C2C275CEE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E0828D9D848A95AE40A7A383137EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F00898B3860A43DC9ABF990FA5DA5B2 /* Push10-dummy.m in Sources */,
+				D4CEC8FE9022E3432F22E4FFF263F11B /* Test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E1D196C13B6D312C3247FAD332EBAC83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,29 +449,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E444B17B8A18849AFC1F9FF359D70D72 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				191E12B9D4E0A89DBE2DBEF43700B432 /* Push10-dummy.m in Sources */,
-				99E17AF14E016DC7A8BA54D9C18466F7 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		99375D4E7E6F12E03FCFF79442425039 /* PBXTargetDependency */ = {
+		0D28BEF1EC8B157B5B7CB18A1264D731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Push10-Push10";
+			target = 8C0CBC761A03F698205B6C74B91F3278 /* Push10-Push10 */;
+			targetProxy = FF2D9328E94B417D2AD6A6EC85BD0AB6 /* PBXContainerItemProxy */;
+		};
+		BCBF24BFB95A7579CB3EC56B4A62679D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Push10_Example";
 			target = 10FEC388D74F4BBF3A8C1E8D7F16CBAC /* Pods-Push10_Example */;
-			targetProxy = 3896FBE80ED2C62A6AD568AC6105948A /* PBXContainerItemProxy */;
+			targetProxy = D9EFB7148A6127724C78F431B038A8F5 /* PBXContainerItemProxy */;
 		};
-		A623868291F3479638A2E895CC3DB4C1 /* PBXTargetDependency */ = {
+		E13838EEE1AA55D9249CDBF5C8385C0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Push10;
 			target = D34A9A5CDB7D6E0DFF2428D60EC341D9 /* Push10 */;
-			targetProxy = A05D3727198BF753A9AD738B3C2B9B09 /* PBXContainerItemProxy */;
+			targetProxy = 2A08C1A4D9B73D9A1EB70D009875A86C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -432,6 +499,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		142C4E4DDEBD8C8D559CBF52F6F74D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD115D428D1C482755899CC30564C332 /* Push10.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Push10/Push10-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Push10/Push10-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Push10/Push10.modulemap";
+				PRODUCT_MODULE_NAME = Push10;
+				PRODUCT_NAME = Push10;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -505,6 +603,36 @@
 			};
 			name = Debug;
 		};
+		337A6C5D956780607979EFDA7C830DD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66BBFAFB5C6DF768C5B2128F26E682E /* Push10.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Push10/Push10-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Push10/Push10-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Push10/Push10.modulemap";
+				PRODUCT_MODULE_NAME = Push10;
+				PRODUCT_NAME = Push10;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		75C0B53CFEBEC0E6711DD5CD25DE6524 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 62E5C3DF7410883CEC838153EA589D77 /* Pods-Push10_Example.debug.xcconfig */;
@@ -570,6 +698,38 @@
 			};
 			name = Release;
 		};
+		A3A80B4683323F46F7EA0DFF84D755D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD115D428D1C482755899CC30564C332 /* Push10.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Push10";
+				IBSC_MODULE = Push10;
+				INFOPLIST_FILE = "Target Support Files/Push10/ResourceBundle-Push10-Push10-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Push10;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BE151CFB4C3952E0F5532C8B4E78A315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66BBFAFB5C6DF768C5B2128F26E682E /* Push10.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Push10";
+				IBSC_MODULE = Push10;
+				INFOPLIST_FILE = "Target Support Files/Push10/ResourceBundle-Push10-Push10-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Push10;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -625,8 +785,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -664,70 +823,18 @@
 			};
 			name = Debug;
 		};
-		E56D2C095D6C21D4D2C110BFA6A97F4B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06CBC65F6E7F83F92CCCB3DE32A62AD8 /* Push10.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Push10/Push10-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Push10/Push10-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Push10/Push10.modulemap";
-				PRODUCT_MODULE_NAME = Push10;
-				PRODUCT_NAME = Push10;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FF151C368D5426883A5250FD54FCFD08 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4C8135AB18EFEB2096175E042717BA3 /* Push10.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Push10/Push10-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Push10/Push10-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Push10/Push10.modulemap";
-				PRODUCT_MODULE_NAME = Push10;
-				PRODUCT_NAME = Push10;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		10D8F0D3A0F1B39474BEAC6717939A8E /* Build configuration list for PBXNativeTarget "Push10-Push10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE151CFB4C3952E0F5532C8B4E78A315 /* Debug */,
+				A3A80B4683323F46F7EA0DFF84D755D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -755,11 +862,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B270B83EFF5705C2860453516DF3BC07 /* Build configuration list for PBXNativeTarget "Push10" */ = {
+		CCC9E2C58F2EA19C2747BC6EEB7C0BCF /* Build configuration list for PBXNativeTarget "Push10" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF151C368D5426883A5250FD54FCFD08 /* Debug */,
-				E56D2C095D6C21D4D2C110BFA6A97F4B /* Release */,
+				337A6C5D956780607979EFDA7C830DD7 /* Debug */,
+				142C4E4DDEBD8C8D559CBF52F6F74D50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

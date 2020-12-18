@@ -7,6 +7,7 @@
 //
 
 #import "JCViewController.h"
+#import <Push10/Test.h>
 
 @interface JCViewController ()
 
@@ -17,13 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    NSLog(@"%@", [Test.alloc init]);
+
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

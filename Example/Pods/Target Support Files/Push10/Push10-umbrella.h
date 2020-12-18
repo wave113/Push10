@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Test.h"
 
 FOUNDATION_EXPORT double Push10VersionNumber;
 FOUNDATION_EXPORT const unsigned char Push10VersionString[];
